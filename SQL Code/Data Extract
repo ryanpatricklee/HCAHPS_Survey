@@ -1,3 +1,10 @@
+/*----------------------------------------------------------------------------------------------
+OBJECTIVE:
+Build a data extract that looks at how satisfied patients are with their hospitals in the 
+United States. This comes from a public dataset called HCAHPS that looks at 3000+ hospitals
+in the United States.
+----------------------------------------------------------------------------------------------*/
+
 CREATE TABLE "postgres"."Hospital_Data".Tableau_File AS
 
 WITH hospital_beds_prep AS
@@ -12,15 +19,16 @@ WITH hospital_beds_prep AS
 	)
 
 
-/* 
--- Check to make sure there are no duplicate records
+/*----------------------------------------------------------------------------------------------
+----------------------- Check to make sure there are no duplicate records ----------------------
 SELECT provider_ccn,
 	   COUNT(*) AS count_of_rows
 FROM hospital_beds_prep
 WHERE nth_row = 1
 GROUP BY provider_ccn
-ORDER BY 2 DESC -- No duplicates founds as long as count_of_rows is all 1
-*/
+ORDER BY 2 DESC
+-------------------- No duplicates founds as long as count_of_rows is all 1 --------------------
+----------------------------------------------------------------------------------------------*/
 
 
 SELECT LPAD(CAST(hcahps.facility_id AS text),6,'0') AS provider_ccn, -- Add leading 0 if number is fewer than 6 digits
