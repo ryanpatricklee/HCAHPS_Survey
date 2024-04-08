@@ -2,7 +2,7 @@
 OBJECTIVE:
 Build a data extract that looks at how satisfied patients are with their hospitals in the 
 United States. This comes from a public dataset called HCAHPS that looks at 3000+ hospitals
-in the United States.
+in the United States for the year 2022.
 ----------------------------------------------------------------------------------------------*/
 
 CREATE TABLE "postgres"."Hospital_Data".Tableau_File AS
