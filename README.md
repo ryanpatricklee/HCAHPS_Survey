@@ -5,7 +5,7 @@ The Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) is
 - Did you receive call button help as soon as possible?
 - Did you understand your discharge instructions?
 
-Patients are asked to rate how often these things happened with "Usually", "Sometimes or Never", or "Always". The "Always" wording is what we aim for, and is called a Top Box answer.
+Patients are asked to rate how often these things happened with "Usually", "Sometimes or Never", or "Always". The "Always" wording is what we aim for, and is called a **Top Box** answer.
 
 [Link to the Tableau Dashboard](https://public.tableau.com/app/profile/ryan.lee1243/viz/2022HCAHPSPatientSatisfactionDashboard_17126979369780/HCAHPSDashboard)
 
