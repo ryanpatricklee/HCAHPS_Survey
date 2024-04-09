@@ -18,4 +18,4 @@ The project aims to develop an SQL extract that combines the patient satisfactio
 - [Data Extract](https://github.com/ryanpatricklee/HCAHPS_Survey/blob/main/SQL%20Code/Data%20Extract)
 
 ## Data
-Data was obtained from CMS
+Data was obtained from the Center for Medicare and Medicaid Services (CMS).
